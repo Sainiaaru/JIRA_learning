@@ -1,0 +1,64 @@
+<!-- Javascript
+Node js
+Core java to revise
+
+New topics to learn are 
+Azure dp 900 and dp 203 course, SQL, postgre SQL, jira, git , tableau , power BI , service now, advanced excel, ms office and some business analyst tools
+
+9th sept 2024 - Today we learn about two topics git and sql  -->
+
+
+In git whenever we have to change version or some changes then we need version control . 
+So version control is management of change to documents , computer programms, large websites, and other collection of information.
+These changes are usually termed as versions.
+On same project is many developers are working then it will be very fine for them to use GIT because if any manager or any developer use to show cahnges then he can just opened git and see changes .
+snapshots of all versions are properly stored and documented. versions are also named accurately.
+
+source code management:- in SCM will make a remote repository suppose in project tgere are 5 developers so if developer 1 and 2 have finish their work then they can push their code in remote repository and after all of them finish their work then can check all code in remote repository this is part of SCM and if any developer needs to check any other dev. work then they can pull their work on their personal repositories.use of this that whole team can be on same page and manager can also view that repository. 
+in git if you change something then VCS (version control system) will provide you with proper description, what exactly was changed, when it was changed, and can analyze your project evolved between versions.
+
+
+Version control tools are :
+1) GIT -mostly used, ex of DVCS
+2) Subversion - ex of CVCS
+3)CVS
+4) Mercurial
+
+In market there are two types of systems available in market that is centralized version control system and distributed version control system.
+
+Centralized vesrion control system : in this developers can connect direct with remote repositories there is no local repository present which is there in distributed version control system.
+in CVCS if remote repository is not available then developers can't submit their work .
+
+Distributed version control systems: in this local repository is present if remote repository is not available that time so developers can submit their work for eg if dev. make 5 version controls or changes then in local repository then in single push they can push work in remote repository ., in this way work can be more structured, organize, and not more load on remote repository, 
+
+
+will talk on GIT and GITHUB now:
+GIT is basically a distributed version control system and GITHUB is remote repository, known as better tool for continuous development.GIT supports distributed non-linear workflows by providing data assurance for developing quality software. we can connect GIT with many developers and their local repositories .
+
+GIT features:
+1) allow distributed development of code
+2) every developer had a local copy od entire development history, and changes are copied from one repo to another.it is most popular tool. 
+3)non- linear tool- supports non linear development of software.
+4) compatible with existing systems and protocols.SVN repositories can directly accessed from GIT-SVN.
+5) branching-it take few seconds to craete and merge branches. master branch always contain production quality code.
+6)speed-fetching data from local repositories is 100 times faster than remote repositories.
+7)open source- can modify source code according to needs.
+8) reliable, secure and economical-it is for free, lot of money saved on costly servers.
+
+
+what is repository-a dircetory or storage space where projects can live , it can be ocal to a folder on ur computer , can keep text , images all stuff inside repositories. 2  types of repositories local and centralized .
+
+GIT commands : first download git on your system , then for version check can use "git -version"
+then using GIT bash can make directory using mkdir "directory name"
+switching into  folder in main directory using command cd "then directory name"
+to initaite GIT use "git init" commnad
+
+
+
+
+
+
+
+
+
+
