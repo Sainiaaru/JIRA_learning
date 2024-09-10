@@ -12,12 +12,12 @@ iv) responding to change.
 12 principles of agile manifesto are:
 principle 1:Prioritize high value work-product owner will work with the team to simplify functionality into something that can be delivered into 
 short sprint.
-principle 2: welcoming change - when you work in your cone of uncertainity.
+principle 2: welcoming change - when you work in your cone of uncertainity- welcoming change requirements even late in project, agile processes harness change for customers's competitive advantage.
 principle 3:Contionus delivery as a measure of progress - that's why most agile team deliver in short iterations called as sprints.
 principle 4:developers and customers work closely together- product owner who is also product representative , sits with the team and guide them on
 product.
 principle 5: small , motivated, self-organized team of generalists-that's why most agile teams are cross-functional and self-organized, 
-work together to deliver the project.
+work together to deliver the project.A cross-functional team has each team member working horizontally through these functional areas.
 principle 6: importance of face to face interaction, that' why most agile teams write user stories instead of writing long documents.
 principle 7:Contionus delivery as a measure of progress.
 principle 8:Prioritize high value work
@@ -28,8 +28,27 @@ principle 12: frequently discuss process improvements.
 
 3) why multitasking : team members gets distributed frequently when they starting working on one thing due to the entry of another thing, 
 to avoid multitasking , agile comes into picture, so agile principle is to deliver working software frequently from a couple of weeks to months,
-with a prefernce to shoter time-frame known as "sprints".
-Reducing multitasking is idea behind agile framewrok called "scrum".
+with a prefernce to shoter time-frame known as "sprints".Reducing multitasking is idea behind agile framewrok called "scrum". The most productive way to work as agile team is moving in small batches of work and eliminating handoffs.
+
+4) Agile promote predicatble development, the sponsors , developers and users shoul dbe able to maintain constant pace - breaking down work into smaller batches, agile team write user stories , begining of each sprint team will deliver few of those batches this is also known as sprint goal.
+
+5) Sprint : a timeboxed iteration of work intended to deliver a shippable portion of a product in shorter time scale. sprint is usually 2 weeks long they don't rely on long term plans.
+
+6) as compared to sprint with waterfall traditional model it is totally opposite as waterfall focuses first on prioritizing long plan first and customers have to waitfor many long to see a glimpse of project.
+
+7)user stories: business analyst spends lot of time in writing clear douments project requirements. user stories are not much about writing format but face-to-face interaction/conversation, user story just care about value not the procedure , for eg the statement of user story format is :
+"As a [user], I want [some feature] so that I can [get some value]. In scrum the product owner worries about what the customer wants , and developers decide how to deliver it. User story in simple terms is just to communicate and stay focus on value.
+
+8) Agile team will write broad statements of cutomer value in the form of user story , these US as tasks  will prioritize from top to bottom.
+
+Waterfall model:
+1)The first stage isto plan, then analyze the requirements , design the system, code the software, test the software and then deploy the software.
+This whole process seems as water falling from top to bottom , this used earlier 30 yrs .
+2) Diff b/w agile and waterfall is that agile is mindset , waterfall is strict process.
+
+Kanban :
+1) It is scheduling system that used in lean manufacturing , agile teams will used to show work on kanban board
+
 
 JIRA NOTES
 
