@@ -5,7 +5,7 @@ Core java to revise
 New topics to learn are 
 Azure dp 900 and dp 203 course, SQL, postgre SQL, jira, git , tableau , power BI , service now, advanced excel, ms office and some business analyst tools
 
-9th sept 2024 - Today we learn about two topics git and sql  -->
+
 
 
 In git whenever we have to change version or some changes then we need version control . 
@@ -34,6 +34,11 @@ Distributed version control systems: in this local repository is present if remo
 
 will talk on GIT and GITHUB now:
 GIT is basically a distributed version control system and GITHUB is remote repository, known as better tool for continuous development.GIT supports distributed non-linear workflows by providing data assurance for developing quality software. we can connect GIT with many developers and their local repositories .
+GIT is foundation of may services like GITLAB and GitHub , ca be used privately and publicly. it is open-source tool and released under General public license.
+The core part of GIT is written in C, which ignores runtime overheads .GIT was developed to work on Linux kernel therefore it is capable enough to have large repositories.
+Branching na dmerging makes GIT very famous, in few seconds only we can perform tasks like creation, deletion and mering of branches.
+
+
 
 GIT features:
 1) allow distributed development of code
@@ -44,15 +49,88 @@ GIT features:
 6)speed-fetching data from local repositories is 100 times faster than remote repositories.
 7)open source- can modify source code according to needs.
 8) reliable, secure and economical-it is for free, lot of money saved on costly servers.
+9) most important feature is the git model ensures the cryptographic integrity of every unit of our project , it provides a unique commit id through SHA algorithm we can retrive and update the commit by commit id.
+10) staging area- ia unique functionality of git. can be considered as preview of our next commit , where commits are formatted and reviewed before completion. it is considerd as a area where git stores the changes.
+11) provides a git rebase , it fetches the latest commit from the master branch and puts our code on top of that , it maintain a clean history of project.
+
 
 
 what is repository-a dircetory or storage space where projects can live , it can be ocal to a folder on ur computer , can keep text , images all stuff inside repositories. 2  types of repositories local and centralized .
+what is github:- it is a git repository hosting service , it can access , control and collaboration , it provides a web based GUI.
+some of the features of GITHUB are: integrated bug issue trcaking, project management, code hosting, team management, converstaions, track and assign tasks.
+
+SVN - it is a centralized version control system , is a revision control, does not have a cloned repository, it does not have crypographically hashed contents, its content is less secure than git.
+Mercurial- git is little bit complex than mercurial, git has better branching model than mercurial, there is no index/staging in mercurial, it does not require any maintenance rather git required it, it is python based and git is linux heritage, it is faster than git.
+
+
+GIT Tools:- 1) GIT Bash - used as git command line for windows , git bash provide shell experience on windows , like Ssh, scp, cat, find.GIT Bash commands like git clone, git commit, git checkout, git push .
+2) GIT GUI- is powerful tool to GITBASH offers a GUI .
+3) gitk-is a graphical history viwere tool. its a robust GUI shell over git log and git grep . this tool is used to find something that happened in past history or visualize ur project history.
+
+GIT terminologies : 
+1)as branch, branch checkout, cheery-picking -if mistake is commited into wwrong branch but don't want to merge then can revert that change and cherry pick on another branch.
+2)fetch- used to fetch branches and tags from one or more repositories.git fetch command is used to pull the updates from remote-tracking branches (git fetch <repo URL>, get fetch all).
+difference b/w git fetch and git pull is : git fetch downloads only new dtaa from a remote repository where git pull update current HEAD branch with latest changes from remote server. protects code from merge conflict in git fetch whereas in git pull there are more chances to create merge conflict.fetch is used to get new view of all the things that happened in remote repo where in pull doiwnlaods new dta aand directly integrates it with current working copy files.
+3)head- it is represntation of last commit in the current checkout branch .
+4)index-it is a staging area b/w the working directory and repositories .
+5)origin- it is a refernce to the remote repositories from a project was initially cloned.
+6)remote- concerned with remote repository, it is shared repository that all team members use to exchange their changes.
+7) tag- (git tag <tagname>) tags make a point as a specific point in git history.it is used to make commit stage as important. they are much like branches and they don't change once initiated. we can have any number of tags on branch or different branches.
+git tag - its a specific command used to display the details of a particular tag (git tag show <tagname>)
+8)git revert- to revert some commit, reset- for undoing changes , used to rest the changes. 
+9)git ignore-it ignore intentionally untracked files that git should ignore.
+10)git diff-it runs a diff function on git data sources.it show how to changes we have made by comparing it with another in a file.
+11)git upstream and downstream - upstream is where u clone the repo and dwonstream is any project that integrates ur work with other works. (git push --set-upstream origin master).
+12)git merge - merging is a procedure to connect the forked history. join two or more devlopment history together , used to combine two branches.(git merge master). when two branches are trying to mmerge , both are eduted at same time in sma efile ,git won't bale to identify which version is to tak ethe changes, it is know as merge conflict. in this situation it stors just before commit to resolve the conflicts manually. 
+13)git squash - it is not any command instead its a keyword and allows you to rewrite history eg , if many commit have done so rather than pushing do squash . soe drwbacks of squashing is if ny dev. doe snot pay attention to updated history then it may create conflict becoz squashing and rebasing change sthe history .
+
+
 
 GIT commands : first download git on your system , then for version check can use "git -version"
 then using GIT bash can make directory using mkdir "directory name"
 switching into  folder in main directory using command cd "then directory name"
-to initaite GIT use "git init" commnad
+to initaite GIT use "git init" command.
 for cloning us ecommand git-clone then paste url.
+
+
+GIT COMMANDS:- 
+1) git config - this sets the author name and email address to be used with your commits. (git config --global user.name "email")
+2) git init - used to create local repository (git init)
+3) git clone - used to make copy of a repository from existing URL (git clone URL)
+4) git add - used to add one or more files to staging(index) area (git add Filename) or (git add .)
+5) git commit - this command changes the head , commits any files added in reository with git and files you changes (git commit -m "any description")
+6) git diff - track the changes that have not been staged (git diff) and git status - used to display the state of working directory and staging area.allow u to see which changes have been staged or which not (git status)
+7) git push - used to put local repository content to a remote repository . its is a act of transfer commits from ur local to remote repo (git push [name] master) this command send changes made on master branch to remote repo.
+8) git push all- pushes all the branches to the server repo (git push --all)
+9) git pull - its used to receive data from github (git pull).
+10) git branch - it list all the branches available in repo (git branch)
+11) git merge - used to merge specified branchs (git merger branchname) and git rebase- apply a sequence of commits from distinct branches into final commit (git rebase <branchname>), it is alternative to git merge command, linear process of mering,  and git interactive rebase - allow operations like edit, rewrite, reorder, on existing commits (git rebase -i).
+12) git log- used to check commit history (git log) and git blame -display the modification on each line of a file (git blame filename>). 
+13) git remote -used to connect ur local repo to remote server (git remote add origin URL)
+14) git checkout -switch b/w branches in a repo , switch to a particular branch (git checkout).
+15) git stash - switch branches without commiting the current branch  (git stash).
+16) git cherry pic-apply the changes introduced by some xisting commit (git cherry pic).
+17) for undo changes git revert and git reset is used (git revert , git reset -hard/ git reset -soft/ git --mixed).
+18) git rm - remove files from the working tree and from the index (git rm filename).
+19) git fork - forking is kind of rough repo allow to freely test and debug without effecting origial project. after final version of project we can create pull request for merging.forking steps are: 
+i) login to github account, find the github repo which want to fork, click the fork button on upper right side of repo's page.
+we can't fork our own repo, only shared repos will be forked,clone and fork is somewhat similar but major difference is that forkingis used to create server-side copy and clone used to create local copy of repo.
+changes can be merged bypull request on fork repo and on clone repo can be merged by pushing.
+
+
+
+
+
+Branches :
+1) Master branch- main branch of project that contains all history of final changes . contains the source code of HEAD that reflect final version ofproject.
+2) Develop branch - parallel to master branch contains latest delivered development changes for next release. when its ready for release its merges with master branch .
+3) (supportive branches ) -these branches used in tracking of fetures , very limited lifetime and removed after use.
+i) feature branches- used to develop new fetaure for next version of project.very limited time , it is deleted after its feature had merged with develop branch.
+ii) release branches- create for support of new version release , this branch should be deployed to a staging server for testing.
+iii) hotfix branches - arise due to immediate action on the project, in case of critical bug fixing in production, after fixing bug it can be merged with master branch.
+
+
+
 
 
 
