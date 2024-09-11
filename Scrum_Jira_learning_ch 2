@@ -1,0 +1,48 @@
+Scrum:
+
+1) Agile project management allows team to adapt to change in real time.
+
+2) Scrum approach allow team to deliver milestones as samll pieces.
+
+3) waterfall model best suits in building construction because in that have to determine pre-steps but in software devlopment it does not work and here works agile method in software devlopment.
+
+4) Scrum take sagile manifesto and its key principles and boli them down into very simple framework as scrum believe on "fail fast" like in any experiment if failure happen then we get to know about that failure very fast not too long and encourages small scale focus and rapid leraning cycles ,"fail fast means learn fast".
+
+5) Scrum framework: product woner prioritize a backlog of work, team decides what work can be done next, team develops and test solution until done, at the end of two weeks team demonstartes its completed work with product owner and stakeholders, team reflects and decide how it can be improved.
+
+6) Tradition waterfall model fail on time, scope and cost when project starts.
+
+7) In scrum there are three key roles the product owner and scrum master and developmen team. 
+i)product owner features: business representative dediacted to 100% to the team . product owner closely work with users and tells what fetaures we need into softwarea and also prioritize features and also review the product demo and think that we are getting enough ROI by developing this feature. 
+ii) scrum master role is protect the team and helps them improve to complete work without distractions. behave like a servant leader , scrum master will not assign you work they will only guide and tell to work to acieve sprint goals , if not getting clarification from product owner or any impediments or approval work as scrum master . helps produt owner in managing product backlog , he facilites scrum ceremonies, system thinker interact with user sometime. 
+iii) development teams- owns the sprint backlog (all developers , testers, designer have responsibilty to succesffully deliver full sprint), it deliver the working software, demo the product, they are part of all scrum ceremonies, they are self organized , 5-9 members team , 9 max and 3 minimum, they estimate the work time to deliver sprint user stories.
+
+
+8) Scrum is a framework and methodology which follow some practices . scrum follows agile methodolgies. In scrum follows agile mindset and empirical process and in this process follows  inspects and adapts . scrum is mainly used for delivering projects . used for fastest delivery of software , if hthere is not long requirement present then at least start to work with short requirement in scrum . in scrum have high business value . if want to use for continous improvements in project then have to use scrum for it. 
+
+9)scrum had three artifacts as 
+i) product backlog (list of work needs to be done ), anyone can add items here, prioritized by PO, fetaures/stories/tasks, follow D.E.E.P (DETAIL, EMERGENCY, ESTIMATED AND PRIORITIZE), reuirements always come , never complete on project , value to customers.
+ii) sprint backlog (like in any particular sprint how much we have to do),sprint backlog is subset of product backlog,maintained by team , cretaed in sprint planning, who deos what, what can be done.
+iii) product increment - the development which are going , it will increased from sprint to sprint , 
+
+10) in scrum there are ceremonies : 
+i) sprint planning- eg if you have sprint for 10 days then for sprint planning it will take 3-4 hrs to plan sprint.
+ii) daily standup/ daily scrum -in which whole team meet for at least 15 minutes to discuss progress.
+iii) sprint review-happened at last , review told that ok product is working or not tell me this , if not working then will do it in next sprint.
+iv) sprint retrospective-who is ding great in sprint, what are the pitfalls face in sprint and how we improv eit further in future.
+
+11) in evry sprint there is one cycle which repeats as design, build and test.
+
+12) scrum ceremonies /events :
+i) sprint planning- all three PO, Scrum master and dev. team do sprint planning , if 2 week sprint then 4 hrs planning will take if 4 weeks sprint then 8 hrs , PO will come into this meeting and prioritize the wrok done. then dev. team commits to sprint goal like based on dev. capacity we can do this much work in this sprint .and breakdown of user stories like breakdown of the work to be done in features.then estimation of user stories .scrum master will facilitate this ceremony .
+ii)daily standup-  15 min duration , scrum master with dev. team , optional that PO will join or not .it is more over progress towareds sprint goal, refer scrum board, its not for debugging , more like commitment, remove blockers. 
+iii) sprint review demo-at end will come and show owner that what we made, team makes demo, PO and stakehoders validate, feedback from customers, did we meet sprint goal or not, part of all sprints.
+iv) sprint retrospective: in this scrum master and team mebrs come and sync to make sprint better, what went well, what can be improved, action items, open for feedback, it is regular interval check , PO is optional.
+
+10 days in sprint capacity: don't take the time we estimate take less time like for eg if there are 4 dev. and all they work for 8 hours and 10 days sprint are there so after estimation total time is 320 hrs for 1 sprint but don't take 320 full hrs becoz some dev. take holiday and public leave so after reducing suppose 24 days from 320 days remining days left is 264 . nut then also don't take 264 hrs as total becoz all team work on 60% to 70% efficient only multiply by 0.7*264 = 158 hrs , take 158 as total , so if any defect will come then defect come in these time only.
+
+
+
+
+
+
