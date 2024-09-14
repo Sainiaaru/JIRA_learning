@@ -68,7 +68,7 @@ It is the sequence in which the SQL evaluates the different operators in the sam
 
 
 
-sql:
+MYSQL:
 
 mysql -u root --port 3307 -p
 
@@ -76,13 +76,19 @@ show databases;
 create databse [dbname];
 drop database [dbname];
 use [dbname];
+MySQL copy or clone database is a feature that allows us to create a duplicate copy of an existing database, in case of db lost/failure ,the copy of db happens in 3 steps as:
+First, use the CREATE DATABASE statement to create a new database.
+Second, store the data to an SQL file. We can give any name to this file, but it must end with a .sql extension.
+Third, export all the database objects along with its data to copy using the mysqldump tool and then import this file into the new database. - mysqldump -u root -p testdb > D:\Database_backup\testdb.sql  
 
---create table
+
+--create table: A table is used to organize data in the form of rows and columns and used for both storing and displaying records in the structure format, it require 3 things like, name of table, name of fields, definition of each field. 
 mysql is case sensitive
 create table [tablename](col1 coltype(size) extra);
+--> points noted : Here, NOT NULL is a field attribute, and it is used because we don't want this field to be NULL. If we try to create a record with a NULL value, then MySQL will raise an error. The field attribute AUTO_INCREMENT specifies MySQL to go ahead and add the next available number to the id field. PRIMARY KEY is used to define a column's uniqueness. We can use multiple columns separated by a comma to define a primary key.
 
 --describe table
-desc [tablename];
+desc [tablename] (command to see the information or structure of the newly created table) ;show tables; (to see the newly created table)
 
 --alter the table
 --if to add column 
