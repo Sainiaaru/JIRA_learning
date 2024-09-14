@@ -1,3 +1,72 @@
+--> SQL is a short-form of the structured query language.This database language is mainly designed for maintaining the data in relational database management systems. It is a special tool used by data professionals for handling structured data (data which is stored in the form of tables). It is also designed for stream processing in RDBMS.
+
+--> Structured Query Language contains the following four components in its process:
+Query Dispatcher
+Optimization Engines
+Classic Query Engine
+SQL Query Engine,
+
+--> Advantages of SQL are:
+1) no programming needed.
+2)High speed query processing-A large amount of data is accessed quickly and efficiently from the database by using SQL queries
+3) standardized language, portability, interactive language, 
+4)more than one data view-The SQL language also helps in making the multiple views of the database structure for the different database users.
+
+Disadvantages of sql are:
+1)cost -The operation cost of some SQL versions is high. That's why some programmers cannot use the Structured Query Language.
+2) Interface is complex.
+3)partial database control- The business rules are hidden. So, the data professionals and users who are using this query language cannot have full database control.
+
+--> datatypes of SQL: String datatype:
+1) CHAR(Size)
+It is used to specify a fixed length string that can contain numbers, letters, and special characters. Its size can be 0 to 255 characters. Default is 1.
+2)VARCHAR(Size)
+It is used to specify a variable length string that can contain numbers, letters, and special characters. Its size can be from 0 to 65535 characters.
+3) BINARY(Size)
+It is equal to CHAR() but stores binary byte strings. Its size parameter specifies the column length in the bytes. Default is 1
+4) TEXT(Size)
+It holds a string that can contain a maximum length of 255 characters.
+
+--> Numeric datatype :
+1) BIT(Size)
+It is used for a bit-value type. The number of bits per value is specified in size. Its size can be 1 to 64. The default value is 1.
+2)INT(size)
+It is used for the integer value. Its signed range varies from -2147483648 to 2147483647 and unsigned range varies from 0 to 4294967295. The size parameter specifies the max display width that is 255.
+3) INTEGER(size)
+It is equal to INT(size).
+4) FLOAT(size, d)
+It is used to specify a floating point number.
+5) BOOL
+It is used to specify Boolean values true and false. Zero is considered as false, and nonzero values are considered as true.
+
+--> Date and time datatypes:
+1)DATE
+It is used to specify date format YYYY-MM-DD. Its supported range is from '1000-01-01' to '9999-12-31'.
+2)DATETIME(fsp)
+It is used to specify date and time combination. Its format is YYYY-MM-DD hh:mm:ss. Its supported range is from '1000-01-01 00:00:00' to 9999-12-31 23:59:59'.
+
+--> What is SQL Operator? 
+Note: SQL operators are used for filtering the table's data by a specific condition in the SQL statement.
+The SQL reserved words and characters are called operators, which are used with a WHERE clause in a SQL query. In SQL, an operator can either be a unary or binary operator. The unary operator uses only one operand for performing the unary operation, whereas the binary operator uses two operands for performing the binary operation.
+
+--> What is the Precedence of SQL Operator?
+It is the sequence in which the SQL evaluates the different operators in the same expression. 
+1)Exponentiation operator -it contain highest precendence . and conjuction operation OR contain lowest
+2)Identity operator, Negation operator +-
+3) Multiplication operator, Division operator
+4) Addition (plus) operator, subtraction (minus) operator, String Concatenation operator + - ||
+5) Comparison Operators =, !=, <, >, <=, >=, IS NULL, LIKE, BETWEEN, IN
+6) Logical negation operator NOT, logical operators - AND , OR, NOT, BETWEEN, ALL, IN, LIKE, ANY
+7) Conjunction operator && or AND, inclusion operator - OR
+
+--> SET operator - combine a similar type of data from two or more SQL database tables. It mixes the result, which is extracted from two or more SQL queries, into a single result.
+1) SQL UNION - The data type and the number of columns must be the same for each SELECT statement used with the UNION operator. This operator does not show the duplicate records in the output table.
+2) SQL UNION ALL -The SQL Union Operator is the same as the UNION operator, but the only difference is that it all record including duplicates.
+3) SQL INTERSECT - SQL INTERSECT operator combines two select statements and returns only the dataset that is common in both the statements.
+4) SQL MINUS - The SQL Minus Operator combines the result of two or more SELECT statements and shows only the results from the first data set.
+
+
+
 
 sql:
 
