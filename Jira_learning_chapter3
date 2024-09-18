@@ -1,0 +1,18 @@
+--> Jira INTRODUCTION :It is a software taht assist , tracking, reporting of project , developed by atlassian , initially started as software devlopement tool to support agile , mostly for software development teams, last few yrs adopted by all industries. it can be categorized into 3 category  as jira software ( software development and agile teams), jira service desk (IT serviec desk like helpdesk in which users raise service request and have SLA etc) , jira core (business units , highly customizable as screens and can modify roles and responsibilities of persons, if working in any HR or marketing then JIRA core will be used).
+
+--> Issues in JIRA: issue is any task want to achieve , in order to complete a particular project . In JIRA issue is a task that team complete in order to deliver the project. Default issue types (supported would be bug, story bug task etc), JIRA core( have different task ).
+if we click on all issues and after that click on create then in type option can see option such as epic, initiative, bug, story, task and if use JIRA CORE then it only show as task or sub task options.can also create sub task when choose epic, story, bug , if u use JIRA service desk then u can only select service request, incident, change management, problem management option in a issue option. custom/default  issue type created by JIRA admin .
+
+--> how to customize view of certain issues in JIRA or add / remove columns of serach results in issues : if I click on JQL from basic (in basic there is no quesry all dashboard but in JQL u can write quesy like- type = Bug AND project = FP AND assignee = currentUser() ORDER BY created DESC) 
+
+--> JIRA homepage-first page in when u login into JIRA, various options shown on homepage is :
+1) first option available is Dashboards: its hows two options further as view all dashboard or to create it.copy dashboard or can share dashboard by clciking on three dots after choosing dashboard option.
+2) Projects : in which can see all the projects made list and also option to create that project.
+3) Filters : there are 2options view all issues, and view all filters.
+4) Boards: in view all borads and recent boards options, bu clciking on any board it show the progress.
+5) one additional plugin is tehre if download Zephyr test managementand execution plugin into JIRA software , test tab allows to manage eg , execution cycle, creating test cases, checking tracebeility etc.
+6) create button : is used to create any issue type in project and then issue type selecting , summary fields hav provided and then clcik on create .
+7)search bar : this is used to search issue fast.
+8) settings tab :in which altlassian admin can add users and manage their roles.
+
+
