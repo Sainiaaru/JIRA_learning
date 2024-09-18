@@ -14,5 +14,10 @@ if we click on all issues and after that click on create then in type option can
 6) create button : is used to create any issue type in project and then issue type selecting , summary fields hav provided and then clcik on create .
 7)search bar : this is used to search issue fast.
 8) settings tab :in which altlassian admin can add users and manage their roles.
+9) In profile section can change password, name , language and preferences.
 
+
+--> JIRA Gadgets : they displays summaries of JIRA project and issue data on JIRA Dashboard, so as when new dashboard rather than default dashboard is created then after creating new dashboard , option of adding gadgets appear in which can choose like bubble chart etc and can link with the project details and that gadjet will show summaries details of JIRA project .
+
+--> JIRA Atlassian Marketplace : how can manage addons in JIRA software - to discover atlassian marketplace click on jira settings options and in taht choose APPS clcik on aaps and then on search bar can find all the external tools instance which can be downloaded in JIRA , for eg I installed Zephyr instance and after installation can look into manage apps and if wanted to uninstall then can disable or totally uninstall it by clciking on magae apps only.
 
