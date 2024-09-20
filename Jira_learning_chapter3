@@ -21,3 +21,31 @@ if we click on all issues and after that click on create then in type option can
 
 --> JIRA Atlassian Marketplace : how can manage addons in JIRA software - to discover atlassian marketplace click on jira settings options and in taht choose APPS clcik on aaps and then on search bar can find all the external tools instance which can be downloaded in JIRA , for eg I installed Zephyr instance and after installation can look into manage apps and if wanted to uninstall then can disable or totally uninstall it by clciking on magae apps only.
 
+--> JIRA projects: 1)jira prject is a collection of issues , single place to manage ur work. 
+2) every project in JIRA has workflow .
+3) teams use project to manage software delivery .
+4) 3 jira applications are jira software, jira helpdesk, jira core and like development of new soft. applications, hr-employee onboarding or finance use jira core , jira service desk -it help desk like service request.
+5) in jira we use , users -team members, issues-task/ bug story, workflow-process for each task, version / realease- specific to development efforts and released to production, components- like database /ui , data for reporting on prject status,  
+
+
+--> KANBAN software - it si a framework for agile development methodology and JIRA supports 2 types of framework one is scrum ad KANBAN , it is much more suited when there is contionous flow of work , instead of time box iterations like scrum methodology like scrum , gives flexilibility like of continous delivery , advantage is change can happen anytime , so reprioritization or change of issues can happen anytime in KANBAN,it is most suited when there is no rigid timeline .
+
+--> diff b/w scrum and KANBAN :
+Kanban and Scrum are both project management frameworks, but they differ in how they manage work and how they approach decision making: 
+1) Workflow
+Kanban uses a continuous workflow, while Scrum uses structured sprints. 
+2) Task management
+Kanban breaks down tasks into smaller chunks, while Scrum focuses on specific tasks during sprints. 
+3) Decision making
+Kanban uses a simple process of defining goals, mapping processes, creating cards, and setting limits. Scrum uses collaborative, team-based approaches, with key decisions made during meetings. 
+4) Prioritization
+Scrum prioritizes work by sorting and grooming the product backlog, setting priorities, and estimating resources. Kanban uses probabilistic forecasting instead of a prioritization or estimation scheme. 
+5) Best use
+Kanban is better for smaller projects or ongoing projects with small pieces of work, while Scrum is better for complex projects that need to be split into smaller chunks. 
+6) Kanban can be used to supplement Scrum, or you can use a mixture of the two approaches called Scrumban.
+
+
+--> jira project creation -in project creation , there is one option to import data into jira- only jira administrator can create new project . 
+
+--> how to edit/delete project in JIRA- only accessible to jira administrator -click on the settings button on dashboard and then clcik on th eproject you want to delete or modify , if want to modify details then clcik on threee dots and go into project settings and can modify the name and clcik save, if want to delete then clcik on three dots and clcik on move to trash , it ask for password and after that it will be deleted.
+
