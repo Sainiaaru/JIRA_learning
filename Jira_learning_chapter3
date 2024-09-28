@@ -63,3 +63,15 @@ the main difference b/w task and story is that on story more than one people can
 
 --> sprint in JIRA: when in small time frame we try to develop features of project , it is always less than 1 yr , we divide project into small small parts,  when creting sprint go into backlog and click on creat esprint option then , can add any story /bug/issue in sprint, can make multiple sprints also , to edit or cange date of sprint use custom option/ duration such as 1 /2/3/4 weeks , until and unless sprint 1 is over if we already made sprint 2 , it won't reflect in board only sprint 1 task such as story, bug will be shown in to do / in progress/ done column . when we complete first sprint then only sprint 2 will be visible in board and remaining task of sprint 1 will be automatically  shifted in sprint 2 .
 
+--> Bug issues in JIRA: means that after development whenever there is any bug found by tester then he marks that bug in JIRA and developer will fix it and again from JIRA tester will test it . , bug can be registered by anyone like manager, client, product owner but mostly testing team will raise bug in JIRA .
+can create bug issue by clciking on create button and choosing bug option which is red dot in color and writing description of that bug , in bug can be linked with any issue , in that linked issues option there are multiple options such as is_blocked_by/ is_cloned_by/ is_duplicated/relates_to and many more .
+
+
+--> TASK in JIRA: a unit of work that is assigned to a story and is a small, independent piece of work that needs to be completed.
+In task it is notnecessary that every time we acheive something but in story there is a goal to achieve something , in task is made to estimate the requirements and time and task is always suggested to make for one day ormax to max for two days not greater than that.story can be of 4 -5 days but not task.
+
+--> Serach in JIRA: there are four types of search in JIRA : in interview if asked how many types u can serach in JIRA so there are only two types such as basic issue and advance issue serach but overall there are 4 types of serach :
+1) board search- this search comes under sprint , so in board can be searched through type such as bug/task/story or through search bar.
+2)global search- it is type of search which search everything if there are two or more projects, then it search from whole / globaly.
+3) basic issue search-when we click on filter option and view all issues then at right corner we find basic and JQL when we select basic search then it gives so many options to choose from it and after filtering options it gives you serach.
+4) advanced serach- 
