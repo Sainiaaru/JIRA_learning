@@ -74,4 +74,12 @@ In task it is notnecessary that every time we acheive something but in story the
 1) board search- this search comes under sprint , so in board can be searched through type such as bug/task/story or through search bar.
 2)global search- it is type of search which search everything if there are two or more projects, then it search from whole / globaly.
 3) basic issue search-when we click on filter option and view all issues then at right corner we find basic and JQL when we select basic search then it gives so many options to choose from it and after filtering options it gives you serach.
-4) advanced serach- 
+4) advanced search- JQL (JIRA Query language) :when we click on view all issues then cn switch to JQL from basic and can write quesry in the search bar .queries such as [type=Story AND (status="Done" or status="In Progress")], type !=Story, type !=Story or type=Bug or type=Epic or type !=Task
+
+
+-->add new issue type / custom issue type in JIRA: there are 5 types of issues in JIRA - story, bug, task, epic, sub-task, and custome issue type is another issue type which person made it own, if want to chcek about issue types present then go into projcet settings and click on issue type , can find all options of issue type and have an option to create new issue type and enter details . and after can also see new issue type in board and can do all the functions which can be done in bug/ story/ task same as in custom issue . we will never iclude sub-task in category , in category only task, story,bug , epic and custom issue will be made.
+
+
+--> Labels in JIRA: they are simply tags in which we can attach with any issue in jira, labels used when want to find any particular thing like if we made issue of frontend and backend then by applying label , its easy to find about front and back end. can attach label with new issue by clciking on create issue and adding labels into it.
+
+
