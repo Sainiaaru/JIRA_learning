@@ -83,3 +83,8 @@ In task it is notnecessary that every time we acheive something but in story the
 --> Labels in JIRA: they are simply tags in which we can attach with any issue in jira, labels used when want to find any particular thing like if we made issue of frontend and backend then by applying label , its easy to find about front and back end. can attach label with new issue by clciking on create issue and adding labels into it.
 
 
+--> Connect GIT with JIRA: to connect GIT with JIRA , we have to click on code and then two options of bitbucket connect and other options of github connect is present , click on github account connect then follow the steps on JIRA and installed GIT hub instance on JIRA nad then further connect it.,after connecting with GIT can create branch also with GIT and JIRA.
+
+--> how to create dashboard in JIRA:is a collection of “gadgets”, or pre-installed data displays, that show various types of real-time information to help you track and monitor your work across projects.when we click on dashboard in JIRA , then we saw first dashboard that is default dashboard , to create it clcik on create dashboard option at top right corner , fill the name , description, , then viewers and editors details 
+
+
