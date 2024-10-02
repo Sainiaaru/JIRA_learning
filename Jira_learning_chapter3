@@ -87,4 +87,28 @@ In task it is notnecessary that every time we acheive something but in story the
 
 --> how to create dashboard in JIRA:is a collection of “gadgets”, or pre-installed data displays, that show various types of real-time information to help you track and monitor your work across projects.when we click on dashboard in JIRA , then we saw first dashboard that is default dashboard , to create it clcik on create dashboard option at top right corner , fill the name , description, , then viewers and editors details 
 
+--> customize issue template: when we  want tosee that in bug / story what fileds are required to show , so then we can customize it on our own , by first clciking on the project settings and click on issue types then window appears where context fields are shown , if you don't want any field eg. in bug don't want label field then choose label field from window and drag that field to the right corner where pop up appears to delete it and label gets deleted , so after that when u create bug issue that that label field won't be appear in creating issue. 
+note: when u customize any field for particular issue type eg bug or story then it changes will only show for that particular issue not for every issue ttype eg if u made changes in bug type then it won't be visible while selecting story issue types.
+if want to add field again then from the rightcorner only search bar choose that field and drag that field towards left , the field gets added again. summary and description are mandatory fields , it can't get removed.
+if want to add ur own fields and customize it then can add also choosing any fields from righ corner "create a field" box given .
+
+--> issue workflow: A Jira workflow represents the process your team uses to take an issue from creation to completion. in board there are mainly to do, in progress, and done flow presesnt but can also add more flows from it by cciking on plus icon of create column and name the flow name as testing or close . to delete added workflow clcik on three dots and clcik on delete flow then present task/story will goes back to the previous stage.this is the basic proceduer but if wnat to do advance process is clcik on project settings and then clcik on issue types and clcik on edit workflow. can add workflow by clicking on done status and then giving name of it eg testing and can also apply rule that until issue comes in done then after it comes in testing stage not before that and clcik on update workflow.
+
+--> project features in jira :  when we open jira then on left hand side some options comes as board , backlog, add view, code, tieline , we can some more features , clcik on prject settings , click on features and can enable and disable fetaures used in jira and all features can be seen at left side of dashboard.
+
+--> issue activity and activity stream : in issue activity shows every user changes and in activity stream it shows overall all the changes . when we open story then at bottom can see then in activity can see commets, history and work log , in comments if any developer does not understand requirements then can comment and in history all past things can seen. and if want to see all the activities related to project then can go at activity stream - create dashboard , at right corner some gadgets are there choose activity stream gadget and add it , after adding can see all the things that done by every team member not ony one team member in whole project.
+
+
+--> reports and charts in jira: all of the process like which is to be done, in progress and all shown through charts.to enable reports go to project settings  and clcik on fetaures and enable reports in it to see reports present on the left side of dashboard
+
+-->Sprint burndown chart: this chart tells only about sprint , it inlcudes efforts of the main task or story , it does not include efforts of sub task. WHEN WE CHOOSE SPRINT BURN DOWN CHART THEN OPTIONS AVAILABLE TO SLEECT FOR WHICH SPRINT HAVE TO CHOOSE AND RELATED TO THAT PARTICULAR SPRINT IT WILL SHOW US CHART AND in that chart shows remaining work, guidelines, story points and whole sprint summary also.
+the sprint burndown chart as name specifies tells that every time the work had to be decresed the chart goes down , when in starting of sprint all of the story points declared at starting and as per perfect burndown chart the red line which is remaining work goes and meet at 0 when all the work done and sprint gets over and the gray line (guideline) it will also move with the red line only .
+note imp: can burndown chart goes into negative : answer is yes if the effort marked earlier before work is less and we did more effort in work then graph goes in negative. (jb story start ki , uske bad me uske story point estimation me change skiye tb vo minus me jata h).
+
+
+-->sprint burnup chart : through this we can estimate that what work to do and how much work is done , this chart tells only about sprint , it includes efforts of main taks or story , it does not include efforts of sub-tasks, 
+
+
+
+
 
