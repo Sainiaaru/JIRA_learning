@@ -108,7 +108,20 @@ note imp: can burndown chart goes into negative : answer is yes if the effort ma
 
 -->sprint burnup chart : through this we can estimate that what work to do and how much work is done , this chart tells only about sprint , it includes efforts of main taks or story , it does not include efforts of sub-tasks, 
 
+--> cumulative flow diagram : A cumulative flow diagram shows the various statuses of work items for an application, version, or sprint. we can access this flow diagram by clicking on report then in report clcik on cumulative flow diagram , can choode dates also and can check for particular sttaus as well like to do, in progress, done or any custom fields. 
 
+
+--> Velocity report : velocity report tells all the work comppleted by team , can access by clciking on report and then clcik on velocity report , The velocity chart displays the average amount of work a scrum team completes during a sprint.difference b/w velocity and cumulative chart is in cumulative we can see through dates not through sprint . in velocity can see through sprint and if commitment is less eg commitment is 20 and completed is 30 so can say that team had great capability but estimation does not go weell so the perfect way of velocity chart is that commitment and work completed must be same only or little bit diference.
+to see team's performance veocity chart is better than cumulative.
+
+-->cycle time report and deployment frequency report: Understand your project's Cycle Time to see how quickly you ship value. Your cycle time is the time it takes an issue to go from first commit to last production deployment based on development and CI/CD data. , through this can see how our team is performing good , better, cycle time graph is used eg when one bug comes so jira thought that after solving bug it will be deployed on production , but if we deployed that bug solution after 2 weeks then that time noted in cycle time graph.
+in ccyle time report , image attached tells us that small dots are issues, and green , yellow an dpink line tells us that some issues gets solved in 50% , some take 85% and some 95% above , and on y axis the time shows tells that when this issue comes and how many days it took to solved and deployed on production. 
+
+--> deployment frequency chart : tells in how much time deployment activity takes place eg today we code and deployed tomorrow or after 4 days , tells that in one week how many depployment happens.
+
+
+BYEEEEEE!  PLEASE SEE ATTACHED JIRA PICTURES PPTTTTTTTT.
+BYEEEEE JIRA COURSE OVER NOW!!!!
 
 
 
